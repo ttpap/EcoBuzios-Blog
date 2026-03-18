@@ -19,14 +19,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
-  <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
+  <link rel="icon" type="image/svg+xml" href="{{ "images/logo.svg" | relURL }}">
 </head>
 <body>
 
 <header class="site-header">
   <div class="container header-inner">
-    <a href="{{ .Site.BaseURL }}" class="site-title">
-      {{ .Site.Title }}
+    <a href="{{ .Site.BaseURL }}" class="site-title" aria-label="{{ .Site.Title }}">
+      <img src="{{ "images/logo.svg" | relURL }}" alt="{{ .Site.Title }}" class="site-logo" height="52" style="display:block;">
     </a>
     <nav class="site-nav">
       {{ range .Site.Menus.main }}
