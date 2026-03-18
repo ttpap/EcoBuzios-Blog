@@ -1,0 +1,43 @@
+baseURL = "https://ttpap.github.io/EcoBuzios-Blog/"
+languageCode = "pt-BR"
+title = "CircoLando"
+theme = "circolando"
+summaryLength = 40
+paginate = 12
+
+[params]
+  description  = "Circo social, cultura e transformação social no Brasil"
+  heroTitle    = "CircoLando"
+  heroSubtitle = "Notícias, projetos e histórias sobre circo social, cultura e transformação no Brasil"
+  email        = "contato@circolando.com.br"
+  author       = "CircoLando"
+
+[markup.goldmark.renderer]
+  unsafe = true   # Permite HTML nos posts Markdown
+
+[markup.highlight]
+  style = "monokai"
+
+[[menu.main]]
+  name = "Home"
+  url  = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Sobre"
+  url  = "/sobre/"
+  weight = 2
+
+[[menu.main]]
+  name = "Categorias"
+  url  = "/categories/"
+  weight = 3
+
+[[menu.main]]
+  name = "Contato"
+  url  = "/contato/"
+  weight = 4
+
+[taxonomies]
+  category = "categories"
+  tag      = "tags"
