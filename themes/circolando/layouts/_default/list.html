@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section class="list-header">
+  <div class="container">
+    <h1 class="list-title">{{ .Title }}</h1>
+    <p class="list-count">{{ len .Pages }} post{{ if gt (len .Pages) 1 }}s{{ end }}</p>
+  </div>
+</section>
+
+<section class="posts-section">
+  <div class="container">
+    <div class="posts-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      <article class="post-card">
+        {{ if .Params.image }}
+        <a href="{{ .Permalink }}" class="post-card-img-wrap">
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" class="post-card-img" loading="lazy">
+        </a>
+        {{ else }}
+        <a href="{{ .Permalink }}" class="post-card-img-wrap post-card-img-placeholder">
+          <div class="placeholder-bg"><span>✦</span></div>
+        </a>
+        {{ end }}
+        <div class="post-card-body">
+          <div class="post-card-meta">
+            {{ if .Params.categories }}
+            <span class="post-tag">{{ index .Params.categories 0 }}</span>
+            {{ end }}
+            <time class="post-date">{{ .Date.Format "2 Jan 2006" }}</time>
+          </div>
+          <h2 class="post-card-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h2>
+          <p class="post-card-excerpt">{{ .Summary | truncate 120 }}</p>
+          <a href="{{ .Permalink }}" class="post-card-link">Ler mais →</a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
