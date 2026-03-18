@@ -1,16 +1,16 @@
 baseURL = "https://ttpap.github.io/EcoBuzios-Blog/"
 languageCode = "pt-BR"
-title = "CircoLando"
+title = "EcoBuzios Blog"
 theme = "circolando"
 summaryLength = 40
 paginate = 12
 
 [params]
-  description  = "Circo social, cultura e transformação social no Brasil"
-  heroTitle    = "CircoLando"
-  heroSubtitle = "Notícias, projetos e histórias sobre circo social, cultura e transformação no Brasil"
-  email        = "contato@circolando.com.br"
-  author       = "CircoLando"
+  description  = "Notícias, natureza e histórias sobre Búzios e a Região dos Lagos"
+  heroTitle    = "EcoBuzios Blog"
+  heroSubtitle = "Notícias, natureza e histórias sobre Búzios e a Região dos Lagos"
+  email        = "contato@ecobuzios.com.br"
+  author       = "EcoBuzios Blog"
 
 [markup.goldmark.renderer]
   unsafe = true   # Permite HTML nos posts Markdown
