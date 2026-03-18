@@ -1,32 +1,27 @@
 ---
-title: "Bem-vindo ao CircoLando"
-subtitle: "O blog do circo social brasileiro"
+title: "Bem-vindo ao EcoBuzios Blog"
+subtitle: "Seu portal de notícias sobre Búzios e a Região dos Lagos"
 date: 2026-03-18
-categories: ["Social"]
-tags: ["circo social", "apresentação", "cultura"]
-image: "/images/bem-vindo.jpg"
-description: "O CircoLando nasce para contar histórias de circo, arte e transformação social no Brasil."
+categories:
+  - "Notícias"
+tags:
+  - "búzios"
+  - "região dos lagos"
+  - "ecobuzios"
+description: "Bem-vindo ao EcoBuzios Blog, seu portal de notícias, natureza e histórias sobre Búzios e a Região dos Lagos."
+draft: false
 ---
 
-O **CircoLando** é um espaço dedicado ao circo social brasileiro — às histórias de artistas, educadores e comunidades que usam a arte circense como ferramenta de transformação.
+<p>O <strong>EcoBuzios Blog</strong> é um espaço dedicado às notícias, histórias e curiosidades sobre <strong>Búzios e a Região dos Lagos</strong> no Rio de Janeiro.</p>
 
-## O que você vai encontrar aqui
+<p>Aqui você vai encontrar:</p>
+<ul>
+  <li>🌊 <strong>Notícias locais</strong> sobre Búzios e cidades vizinhas</li>
+  <li>🌿 <strong>Meio ambiente</strong> e sustentabilidade na região</li>
+  <li>🎭 <strong>Cultura e turismo</strong> — eventos, festas e tradições</li>
+  <li>🐠 <strong>Mar e natureza</strong> — praias, fauna e flora local</li>
+</ul>
 
-Neste blog você vai encontrar:
+<p>O blog é atualizado automaticamente com notícias relevantes, geradas com inteligência artificial a partir de fontes confiáveis.</p>
 
-- **Notícias** sobre circo social no Brasil e no mundo
-- **Projetos** de arte circense com impacto comunitário
-- **Histórias** de artistas, palhaços, acrobatas e malabaristas
-- **Cultura** circense: tradição, inovação e diversidade
-
-## Por que o circo transforma?
-
-O circo tem uma capacidade única de criar laços. Quando uma criança aprende a equilibrar, aprende também a confiar. Quando um grupo aprende a voar junto no trapézio, aprende que é preciso se apoiar.
-
-> "O circo não é só entretenimento — é uma escola de vida."
-
-É dessa escola que queremos falar.
-
----
-
-Acompanhe o CircoLando e fique por dentro do que acontece nas lonas, praças e comunidades de todo o Brasil.
+<p><em>Seja bem-vindo! 🌅</em></p>
