@@ -1,9 +1,9 @@
-name: CircoLando — Build & Deploy
+name: EcoBuzios Blog — Build & Deploy
 
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:   # Permite rodar manualmente pelo painel do GitHub
+  workflow_dispatch:
 
 permissions:
   contents: read
