@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="footer-title">{{ .Site.Title }}</span>
+      <p class="footer-desc">{{ .Site.Params.description }}</p>
+    </div>
+    <div class="footer-links">
+      <h4>Navegação</h4>
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+    <div class="footer-social">
+      <h4>Contato</h4>
+      {{ with .Site.Params.email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; {{ now.Year }} {{ .Site.Title }} — Circo social, cultura e transformação</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
